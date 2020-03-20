@@ -4,3 +4,5 @@ main.go.bak
 .idea
 
 tests
+
+*.exe

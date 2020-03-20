@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/gin-gonic/gin"
-	"golango.cn/cc-gin/router"
+	"golango.cn/gin-jwt/router"
 	"log"
 )
 

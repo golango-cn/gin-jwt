@@ -1,4 +1,4 @@
-module golango.cn/cc-gin
+module golango.cn/gin-jwt
 
 go 1.14
 

@@ -3,8 +3,8 @@ package router
 import (
 	"fmt"
 	"github.com/gin-gonic/gin"
-	"golango.cn/cc-gin/handler"
-	"golango.cn/cc-gin/router/middleware"
+	"golango.cn/gin-jwt/handler"
+	"golango.cn/gin-jwt/router/middleware"
 )
 
 func InitRouter() *gin.Engine {

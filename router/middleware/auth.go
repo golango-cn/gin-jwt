@@ -2,8 +2,8 @@ package middleware
 
 import (
 	"github.com/gin-gonic/gin"
-	"golango.cn/cc-gin/handler"
-	"golango.cn/cc-gin/pkg/jwtauth"
+	"golango.cn/gin-jwt/handler"
+	"golango.cn/gin-jwt/pkg/jwtauth"
 	"net/http"
 	"time"
 )
