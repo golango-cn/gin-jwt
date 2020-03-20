@@ -12,7 +12,7 @@ func InitRouter() *gin.Engine {
 	r := gin.New()
 	r.Use(middleware.Logger())
 
-	// the jwt middleware
+	//jwt中间件
 	authMiddleware, err := middleware.AuthInit()
 	if err != nil {
 		_ = fmt.Errorf("JWT Error", err.Error())
